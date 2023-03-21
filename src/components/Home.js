@@ -1,10 +1,13 @@
 import React from 'react'
 import mobile from './mobile.jpg';
+import cart from './cart.jpg';
 
 function Home(props) {
     return (
         <div>
-           
+           <div className="add-to-cart">
+            <img src={cart} />
+           </div>
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">

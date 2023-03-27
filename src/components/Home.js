@@ -3,6 +3,7 @@ import mobile from './mobile.jpg';
 import cart from './cart.jpg';
 
 function Home(props) {
+    console.warn("Home",props)
     return (
         <div>
            <div className="add-to-cart">

@@ -36,6 +36,7 @@
   color: #fff;
   box-shadow: #333 0px 1px 5px;
 }
+
 .img-wrapper img {
   width: 90px;
   margin-top: -10px;;
@@ -71,6 +72,10 @@
     height: 20px;
     border-radius: 50%;
     color: #fff;
+}
+button.remove-cart-btn{
+  background: rgb(12, 223, 124);
+    margin-top: 10px;
 }
 /*  */
 @keyframes App-logo-spin {
